@@ -12,7 +12,7 @@ const { dispatch, getState } = store;
  */
 function feed() {
   return function (req, res) {
-    const data = getState().feed;
+    const data = getState().feed.slice(0, 100);
     res.json(data);
   };
 

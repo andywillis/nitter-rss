@@ -1,4 +1,11 @@
-# react-scaffold
+# nitter-rss
+
+To do
+
+- Set up Couch
+- Cron job to check for new tweets
+- Server-side event to pass new data to the front end
+- React virtualise for the tweet feed
 
 ## Licence
 

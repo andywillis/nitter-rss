@@ -1,4 +1,4 @@
-import styles from './index.module.css';
+import style from './index.module.css';
 
 /**
  * Feed
@@ -7,9 +7,19 @@ import styles from './index.module.css';
  */
 function Feed({ feed }) {
   return (
-    <section className={styles.feed}>
+    <section className={style.feed}>
       {feed.map(item => {
-        return <p key={item.id}>{item.body}</p>;
+        const authorLink = `https://nitter.lacontrevoie.fr/${item.author}/with_replies`.replace('@', '');
+        return (
+          <section key={item.id} class={style.tweet}>
+            <p className={style.header}>
+              <a href={authorLink} rel="noreferrer" target="_blank">
+                {item.author}
+              </a> - <a href={item.link}>{item.timestamp}</a>
+            </p>
+            <section className={style.body} dangerouslySetInnerHTML={{ __html: item.body }} />
+          </section>
+        );
       })}
     </section>
   );

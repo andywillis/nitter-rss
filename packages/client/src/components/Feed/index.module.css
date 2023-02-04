@@ -5,6 +5,23 @@
   min-height: calc(100vh - 200px);
 }
 
+.tweet {
+  margin: 1em;
+  padding: 0.5em;
+  border: 2px solid rgb(111, 173, 194);
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #eeeeff;
+  border-radius: 5px;
+}
+
+.header, .body, .link, .body img {
+  margin: 0.25em;
+  padding: 0.25em;
+}
+
 @media (min-width: 1024px) {
   .feed {
     width: 80%;
