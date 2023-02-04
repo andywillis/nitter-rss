@@ -1,6 +1,9 @@
 import reducer from './reducer';
 
-const initialState = {};
+const initialState = {
+  tweets: [],
+  feed: []
+};
 
 function createStore(reducer, initialState) {
 

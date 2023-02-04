@@ -4,8 +4,25 @@ export default function reducer(state, action) {
 
   switch (type) {
 
-    case 'default': {
-      return { ...state, answers: payload };
+    case 'addFeed': {
+      return {
+        ...state,
+        feed: payload
+      };
+    }
+
+    case 'mergeTweets': {
+      return {
+        ...state,
+        tweets: [ ...state.tweets, ...payload ]
+      }
+    }
+
+    case 'replaceTweets': {
+      return {
+        ...state,
+        tweets: payload
+      }
     }
 
     default: return state;

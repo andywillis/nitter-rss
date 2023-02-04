@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { useSetRecoilState } from 'recoil';
+import { useEffect, useState } from 'react';
+// import { useSetRecoilState } from 'recoil';
 
 import Footer from './components/Footer';
 import Main from './components/Main';
@@ -14,10 +14,15 @@ import {} from './store/atoms';
  */
 function App() {
 
+  const [ feed, setFeed ] = useState([]);
+
   useEffect(() => {
     async function getData() {
-      // const response = await fetch('/library');
-      // const data = await response.json();
+      const res = await fetch('/feed');
+      if (res.ok) {
+        const data = await res.json();
+        setFeed(data);
+      }
     }
     getData();
   }, []);
@@ -25,7 +30,7 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Main feed={feed} />
       <Footer />
     </>
   );

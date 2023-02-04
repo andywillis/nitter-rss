@@ -2,11 +2,17 @@ import 'dotenv/config';
 
 import { app, port, server } from './service/express';
 
-import routes from './routes/index';
+import routes from './routes';
 
-import data from '../data/data.json' assert { type: 'json' };
+import store from './store';
 
-app.get('/endpoint', await routes.default(data));
+import data from '../data/woodsbythesea_sorted.json' assert { type: 'json' };
+
+const { dispatch, getState } = store;
+
+dispatch({ type: 'addFeed', payload: data });
+
+app.get('/feed', routes.feed());
 app.get('*', routes.root());
 
 server.listen(port, () => {

@@ -1,4 +1,4 @@
-import default from './default';
+import feed from './feed';
 import root from './root';
 
-export default { default, root };
+export default { feed, root };

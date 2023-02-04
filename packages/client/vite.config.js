@@ -13,7 +13,7 @@ export default defineConfig({
     open: true,
     port: 3000,
     proxy: {
-      '/endpoint': {
+      '/feed': {
         target: 'http://localhost:4000',
         secure: false,
         changeOrigin: true
@@ -23,7 +23,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     emptyOutDir: true,
-    outDir: '../build',
+    outDir: './build',
     sourcemap: true
   }
 });

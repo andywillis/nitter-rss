@@ -1,12 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"eslint.workingDirectories": [
-			"src/client", "src/server"
-		]
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ]
 }
