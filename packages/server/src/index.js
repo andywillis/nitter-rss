@@ -12,6 +12,7 @@ const { dispatch, getState } = store;
 
 dispatch({ type: 'addFeed', payload: data });
 
+app.get('/sse', routes.sse());
 app.get('/feed', routes.feed());
 app.get('*', routes.root());
 

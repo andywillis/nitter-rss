@@ -20,6 +20,7 @@
     "fast-xml-parser": "^4.0.15",
     "get-twitter-followings": "^1.0.2",
     "helmet": "^6.0.0",
+    "nano": "^10.1.2",
     "twitter-tokens": "^1.0.3",
     "uuid": "^9.0.0"
   },
