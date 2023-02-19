@@ -21,29 +21,44 @@ function sortByDate(arr) {
 }
 
 async function processData(data) {
+
   if (data.length) {
+
     const [ head, ...tail ] = data;
+
     console.log(`Processing ${head.name}`);
+
     try {
+
       const res = await fetch(head.rss);
+
       if (res.ok) {
+
         const xml = await res.text();
         const obj = parser.parse(xml);
+
         if (obj?.rss?.channel?.item) {
+
           const payload = obj.rss.channel.item.map(item => {
             const { description: body, pubDate, 'dc:creator': author, link } = item;
             const timestamp = new Date(pubDate);
             return { id: uuidv4(), author, timestamp, body, link };
           });
+
           dispatch({ type: 'mergeTweets', payload });
+
         } else {
           console.log(`No data found for ${head.name}`);
         }
+
       }
+
       setTimeout(() => processData(tail), 400);
+
     } catch (err) {
       console.error(err);
     }
+
   } else {
     console.log('Processing complete.');
     const { tweets } = getState();
@@ -54,6 +69,7 @@ async function processData(data) {
     await writeFile(`${rootname}/data/${accountName}_sorted.json`, JSON.stringify(sorted));
     console.log('File saved');
   }
+
 }
 
 async function main() {
