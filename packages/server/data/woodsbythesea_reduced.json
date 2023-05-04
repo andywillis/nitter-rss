@@ -159,7 +159,7 @@
         "id": "aa77d35c-528d-446d-a882-13b2c0ebaecb",
         "name": "Paulatemple",
         "category": "music",
-        "visible": true,
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/Paulatemple/with_replies",
@@ -340,7 +340,7 @@
     {
         "id": "52dffde2-dc1f-49c5-a04e-d3dc05266a3b",
         "name": "Delafina777",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -418,7 +418,7 @@
     {
         "id": "e90eff4f-e489-4220-bd61-e122e68e3196",
         "name": "justkelly_ok",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -431,7 +431,7 @@
     {
         "id": "e916e04e-6711-4721-976e-53b6f423993b",
         "name": "natashalennard",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -457,7 +457,7 @@
     {
         "id": "ff57b540-5ab2-4b39-8e10-4d347b5fdbd8",
         "name": "archillect",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -483,7 +483,7 @@
     {
         "id": "d6076b19-7f55-49e4-85a7-e8364b25d42e",
         "name": "girlonetrack",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -574,8 +574,8 @@
     {
         "id": "7d8d1d65-1f8d-4d29-93a5-da6dd273b977",
         "name": "WEP_UK",
-        "category": "twitter",
-        "visible": true,
+        "category": "other",
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/WEP_UK/with_replies",
@@ -587,7 +587,7 @@
     {
         "id": "0e40d6c0-dd05-4ecc-99eb-4f637ade3bf6",
         "name": "EverydaySexism",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -639,7 +639,7 @@
     {
         "id": "0bc6a38f-425f-45be-8b12-fea1f36a2d1e",
         "name": "kirsteenmcnish",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -652,7 +652,7 @@
     {
         "id": "a3e1105a-7776-4c5b-b316-deea7b8afff8",
         "name": "_sashayed",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -665,7 +665,7 @@
     {
         "id": "90245ea9-3f73-4f1f-8d5f-5904bf7164a9",
         "name": "bainofyrexstnce",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -717,7 +717,7 @@
     {
         "id": "d2c8ebb7-59b2-450b-b7f9-e4d23c0d6256",
         "name": "BarristerSecret",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -769,7 +769,7 @@
     {
         "id": "76033c2d-7b4d-4f82-903e-be3cbc2c5c7e",
         "name": "__bakedalaskan",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -782,7 +782,7 @@
     {
         "id": "b90c82bf-6f92-44c0-9c09-af9600f36f98",
         "name": "tagaq",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -821,7 +821,7 @@
     {
         "id": "c4ebc64b-d5c8-4841-8ef8-4eae2c300795",
         "name": "RosemaryMosco",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -834,7 +834,7 @@
     {
         "id": "6b916066-1e2e-4597-a00c-4a4db74f8037",
         "name": "redditships",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -873,7 +873,7 @@
     {
         "id": "4cace27f-07fc-434d-ba30-6c721f66561f",
         "name": "hiyalauren",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -886,7 +886,7 @@
     {
         "id": "5f0be54d-6d92-482c-a5a4-fe192a807d3e",
         "name": "GennHutchison",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -899,7 +899,7 @@
     {
         "id": "2a2371c8-cbb6-4301-85ac-8b66159d71e6",
         "name": "TheBloggess",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -926,7 +926,7 @@
         "id": "1f54f998-ea72-47cb-a3c2-6e910d336cf3",
         "name": "Printworks_LDN",
         "category": "music",
-        "visible": true,
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/Printworks_LDN/with_replies",
@@ -938,7 +938,7 @@
     {
         "id": "c55c9863-9f56-43f2-a962-733d2075fd62",
         "name": "AngryTheInch",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -951,7 +951,7 @@
     {
         "id": "28db5a59-f5db-43b8-b93f-8ccdae17f421",
         "name": "Alethea_Aggiuq",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -964,7 +964,7 @@
     {
         "id": "4b7d0463-bb3d-46d4-83a1-5b987bf977ea",
         "name": "RobGMacfarlane",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1029,7 +1029,7 @@
     {
         "id": "117fd3ef-ca40-4154-a83a-d6a8508085e3",
         "name": "women_direct",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1068,7 +1068,7 @@
     {
         "id": "ab102d67-5428-4898-a0d9-b11a580466cb",
         "name": "KoonooHan",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1133,7 +1133,7 @@
     {
         "id": "b455cb55-1a1b-4138-bd78-7123a362cffd",
         "name": "JanelleCShane",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1146,7 +1146,7 @@
     {
         "id": "ffcae395-5886-4c71-a3ab-72b9a9f22f5b",
         "name": "tesseralis",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1185,7 +1185,7 @@
     {
         "id": "dd4ffef6-e529-40c7-9cd0-b00d22806b55",
         "name": "NigelSlater",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1224,8 +1224,8 @@
     {
         "id": "a1e64a16-67e2-4aed-8c4c-c3131949cc21",
         "name": "BlairBraverman",
-        "category": "twitter",
-        "visible": true,
+        "category": "other",
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/BlairBraverman/with_replies",
@@ -1419,7 +1419,7 @@
     {
         "id": "8915b891-ed32-403b-ace0-0c8e84dabe60",
         "name": "_katefm",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1498,7 +1498,7 @@
         "id": "716e54da-81f2-4811-9a56-e042975a1349",
         "name": "WTCHCRFT666",
         "category": "music",
-        "visible": true,
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/WTCHCRFT666/with_replies",
@@ -1510,7 +1510,7 @@
     {
         "id": "000e0fa9-e031-4ba3-9897-930562a69b0e",
         "name": "LydiaCaradonna",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1562,7 +1562,7 @@
     {
         "id": "93d97c12-5833-43ea-bb25-ffa99d81e7d4",
         "name": "TheLastHatGirl",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1588,7 +1588,7 @@
     {
         "id": "b2620ec2-9313-48ab-83f7-7ecb05957987",
         "name": "_slutscapades",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1653,7 +1653,7 @@
     {
         "id": "076cf1ab-8a7d-411a-a719-2ffe387cf9c2",
         "name": "AudreyPorne",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1731,7 +1731,7 @@
     {
         "id": "fdd4fc41-ca9f-4e78-aeb7-ab7c49f6d399",
         "name": "DrewZachary",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1744,7 +1744,7 @@
     {
         "id": "262fa607-8368-4c6f-aee4-6a4852c692b0",
         "name": "JordanKonek",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1796,7 +1796,7 @@
     {
         "id": "16090c98-9287-4197-8867-3c81ef932f42",
         "name": "kamanabeamer",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1848,7 +1848,7 @@
     {
         "id": "8e70d209-183f-4fb1-919d-281235fb71ff",
         "name": "michaelsheen",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -1875,7 +1875,7 @@
         "id": "adf561a6-1cc4-4edd-9332-19dede68e34c",
         "name": "UKRaveComments",
         "category": "music",
-        "visible": true,
+        "visible": false,
         "partialPaths":
         {
             "href": "https://nitter.lacontrevoie.fr/UKRaveComments/with_replies",
@@ -1887,7 +1887,7 @@
     {
         "id": "8767d710-eb5f-49c8-a502-993f421fbe59",
         "name": "Qilavaq",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1913,7 +1913,7 @@
     {
         "id": "80f720db-10eb-476e-8b09-a9670521bf15",
         "name": "girlonthenet",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -1926,7 +1926,7 @@
     {
         "id": "13f3602a-9b2a-42b3-b750-1da9e326ea9e",
         "name": "woolismybread",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -2095,7 +2095,7 @@
     {
         "id": "e1ede169-8c90-40fe-addc-6c8a5d258a16",
         "name": "PleaseBeGneiss",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -2186,7 +2186,7 @@
     {
         "id": "3071ebb0-cf4b-4aba-a7b1-77372cca0f2a",
         "name": "katienotopoulos",
-        "category": "twitter",
+        "category": "other",
         "visible": false,
         "partialPaths":
         {
@@ -2199,7 +2199,7 @@
     {
         "id": "cc6e2b51-60f5-4019-b27e-b4c0f691700b",
         "name": "ask_aubry",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
@@ -2225,7 +2225,7 @@
     {
         "id": "2f1081eb-aa96-42d6-8fea-4463dde911d0",
         "name": "uyarakq",
-        "category": "twitter",
+        "category": "other",
         "visible": true,
         "partialPaths":
         {
